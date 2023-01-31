@@ -1,0 +1,66 @@
+{
+    "twenty": [
+        {
+            "name": "A",
+            "percent": 30,
+            "color": "#ef6461"
+        },
+        {
+            "name": "B",
+            "percent": 20,
+            "color": "#AB2725"
+        },
+        {
+            "name": "C",
+            "percent": 10,
+            "color": "#361817"
+        },
+        {
+            "name": "D",
+            "percent": 5,
+            "color": "#540F0E"
+        },
+        {
+            "name": "E",
+            "percent": 25,
+            "color": "#382828"
+        },
+        {
+            "name": "F",
+            "percent": 20,
+            "color": "#FF0400"
+        }
+    ],
+    "twentyOne": [
+        {
+            "name": "A",
+            "percent": 17,
+            "color": "#ef6461"
+        },
+        {
+            "name": "B",
+            "percent": 26,
+            "color": "#AB2725"
+        },
+        {
+            "name": "C",
+            "percent": 4,
+            "color": "#361817"
+        },
+        {
+            "name": "D",
+            "percent": 5,
+            "color": "#540F0E"
+        },
+        {
+            "name": "E",
+            "percent": 8,
+            "color": "#382828"
+        },
+        {
+            "name": "F",
+            "percent": 30,
+            "color": "#FF0400"
+        }
+    ]
+}

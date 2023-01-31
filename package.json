@@ -5,19 +5,19 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
-    "predeploy": "rm -rf dist && parcel build index.html --public-url https://followynne.github.io/github-pages-hosting-with-parcel/",
+    "predeploy": "rm -rf dist && parcel build index.html --public-url https://elisabetperez.github.io/parcelv2/",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/followynne/github-pages-hosting-with-parcel.git"
+    "url": "git+https://github.com/elisabetperez/parcelv2.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/followynne/github-pages-hosting-with-parcel/issues"
+    "url": "https://github.com/elisabetperez/parcelv2/issues"
   },
-  "homepage": "https://github.com/followynne/github-pages-hosting-with-parcel#readme",
+  "homepage": "https://github.com/elisabetperez/parcelv2#readme",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.0.1",

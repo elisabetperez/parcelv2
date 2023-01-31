@@ -3,6 +3,8 @@ import "../index.scss";
 import * as d3 from "d3";
 import data from "../data.json";
 
+console.log('test');
+
 const select = document.querySelector("#years");
 
 let datos;

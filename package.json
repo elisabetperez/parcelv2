@@ -2,7 +2,6 @@
   "name": "github-pages-hosting-with-parcel",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
     "predeploy": "rm -rf dist && parcel build index.html --public-url https://elisabetperez.github.io/parcelv2/",

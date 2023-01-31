@@ -1,46 +1,48 @@
-import "../index.scss";
+// import "../index.scss";
 
-import * as d3 from "d3";
-import data from "../data.json";
+// import * as d3 from "d3";
+// import data from "../data.json";
 
-const select = document.querySelector("#years");
+// const select = document.querySelector("#years");
 
-let datos;
+// let datos;
 
-select.addEventListener("change", () => {
-    if (select.value == "2020") {
-        datos = data.twenty;
-    }
-    if (select.value == "2021") {
-        datos = data.twentyOne;
-    }
+// console.log('HOLA');
 
-    pieChart(datos);
-});
+// select.addEventListener("change", () => {
+//     if (select.value == "2020") {
+//         datos = data.twenty;
+//     }
+//     if (select.value == "2021") {
+//         datos = data.twentyOne;
+//     }
 
-function pieChart(datos) {
-    console.log(datos);
+//     pieChart(datos);
+// });
 
-    const percents = datos.map((a) => a.percent);
-    const colors = datos.map((a) => a.color);
+// function pieChart(datos) {
+//     console.log(datos);
 
-    const svg = d3.select("#pie-chart"),
-        width = 500,
-        height = 500,
-        radius = Math.min(width, height) / 2,
-        g = svg.append("g").attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+//     const percents = datos.map((a) => a.percent);
+//     const colors = datos.map((a) => a.color);
 
-    const color = d3.scaleOrdinal(colors);
+//     const svg = d3.select("#pie-chart"),
+//         width = 500,
+//         height = 500,
+//         radius = Math.min(width, height) / 2,
+//         g = svg.append("g").attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
-    const pie = d3.pie();
+//     const color = d3.scaleOrdinal(colors);
 
-    const arc = d3.arc().innerRadius(0).outerRadius(radius);
+//     const pie = d3.pie();
 
-    const arcs = g.selectAll("arc").data(pie(percents)).enter().append("g").attr("class", "arc");
+//     const arc = d3.arc().innerRadius(0).outerRadius(radius);
 
-    arcs.append("path")
-        .attr("fill", function (d, i) {
-            return color(i);
-        })
-        .attr("d", arc);
-}
+//     const arcs = g.selectAll("arc").data(pie(percents)).enter().append("g").attr("class", "arc");
+
+//     arcs.append("path")
+//         .attr("fill", function (d, i) {
+//             return color(i);
+//         })
+//         .attr("d", arc);
+// }

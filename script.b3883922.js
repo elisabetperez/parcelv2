@@ -18,4 +18,4 @@ var t,e=arguments[3];!function(e,n){"object"==typeof exports&&"undefined"!=typeo
 },{"jquery":"HlZQ","popper.js":"v5IM"}],"JVpL":[function(require,module,exports) {
 "use strict";var e=r(require("jquery"));function r(e){return e&&e.__esModule?e:{default:e}}require("popper.js"),require("bootstrap/dist/css/bootstrap.min.css"),require("bootstrap/dist/js/bootstrap"),(0,e.default)(document).ready(function(){(0,e.default)("body").html("<div>Hello World, if you see this messagge Parcel Bundler and Github Hosting are working nicely!</div>")});
 },{"jquery":"HlZQ","popper.js":"v5IM","bootstrap/dist/css/bootstrap.min.css":"H97Y","bootstrap/dist/js/bootstrap":"pe4o"}]},{},["JVpL"], null)
-//# sourceMappingURL=https://followynne.github.io/github-pages-hosting-with-parcel/script.b3883922.js.map
+//# sourceMappingURL=https://elisabetperez.github.io/parcelv2/script.b3883922.js.map

@@ -1,0 +1,31 @@
+{
+  "name": "github-pages-hosting-with-parcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "predeploy": "rm -rf dist && parcel build index.html --public-url https://followynne.github.io/github-pages-hosting-with-parcel/",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/followynne/github-pages-hosting-with-parcel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/followynne/github-pages-hosting-with-parcel/issues"
+  },
+  "homepage": "https://github.com/followynne/github-pages-hosting-with-parcel#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "gh-pages": "^2.0.1",
+    "jquery": "^3.5.0",
+    "parcel": "^1.12.4",
+    "popper.js": "^1.15.0"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  }
+}

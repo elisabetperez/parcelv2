@@ -1,11 +1,9 @@
 import "../index.scss";
 
 import * as d3 from "d3";
-console.log(`arriba d3 es ${d3}`);
 
 import data from "../data.json";
 
-console.log('test');
 
 const select = document.querySelector("#years");
 
@@ -34,8 +32,6 @@ function pieChart(datos) {
     const radius = Math.min(width, height) / 2;
     const g = svg.append("g").attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
-    console.log(`abajo d3 es ${d3}`);
-    
     const color = d3.scaleOrdinal(colors);
 
     const pie = d3.pie();
